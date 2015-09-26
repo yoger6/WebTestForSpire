@@ -1,0 +1,24 @@
+.wrapper, 
+.section, 
+.h-container, 
+.v-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.v-container, 
+.wrapper, 
+.section { flex-direction: column; }
+
+.shrink { flex-shrink: 2; }
+
+.center { align-self: center; }
+
+.center-inside { align-items: center;
+    justify-content: center;
+}
